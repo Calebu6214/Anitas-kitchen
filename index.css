@@ -1,0 +1,151 @@
+body{
+    
+}
+#header{
+    background-image: url(./Assets/landing.jpg) ;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    font-size: xx-large;
+    padding-top: 50px;
+
+}
+ #first{ display: flex;
+}
+#hour{
+    height: 150px;
+    width: 500px;
+    flex-direction: column;
+     
+}  
+#happy{ 
+    height: 75px;
+    text-align: center;
+    background-color:white;
+    font-size: x-large;
+    padding-top: 30px;
+}
+#party{
+    text-align: center;
+    background-color: #F15A29;
+    height: 75px;
+    padding-top: 30px;
+    font-size: x-large;
+}
+#hour2{display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: first baseline;
+    width: 75%;
+}
+#breakfast{
+    color: white;
+    height: 150px;
+    width: 500px;
+    text-align: center;
+    background-image: url(./Assets/breakfast.jpg);
+    background-size: cover;
+    padding-top: 60px;
+    font-size: x-large;
+    background-repeat: no-repeat;
+}
+#lunch{
+    color: white;
+    height: 150px;
+    width: 500px;
+    text-align: center;
+    background-image: url(./Assets/lunch.jpg);
+    background-size: cover;
+    padding-top: 60px;
+    font-size: x-large; 
+    background-repeat: no-repeat; 
+    opacity: 0.7;  
+}
+#dinner{
+    color: white;
+    height: 150px;
+    width: 500px;
+    text-align: center;
+    background-image: url(./Assets/dinner.jpg);
+    background-size: cover;
+    padding-top: 60px;
+    font-size: x-large;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#second{
+display: flex;
+margin-left: 200px;
+margin-top: 50px;
+justify-content: space-evenly;
+}
+#plate{ 
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+}
+#fast{display: flex;
+    justify-content: space-around;
+}
+#third{ 
+    justify-content: space-around;
+    display: flex;
+    margin-left:200px ;
+    margin-top: 30px;
+    padding-bottom:130px;
+    height: 220px;
+
+}
+#wdrinks{
+    height: 10px;
+    width: 180px;
+}
+#drinks{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.menu{
+    margin-top: 50px;
+    background-color: rgba(153, 147, 147, 0.79); 
+    background-blend-mode: overlay;
+    background-image: url(./Assets/foodsBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 120px;
+}
+#view{
+    padding: 10px;
+    color:#F15A29;
+    font-size: medium;
+}
+th {
+    padding: 10px;
+    background-color: rgb(204, 204, 204);
+  padding: 10px;
+  background-color: rgb(204, 204, 204);
+}
+#ff{
+    color: #F15A29;
+    background-color: white;}
+
+    .menu_div_list {
+        color: #F15A29;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 18px;}
+
+        #category{
+            width: 100%;
+            border-collapse: collapse;
+        }
+            .img_res {
+                background-color: white;
+                box-sizing: border-box;
+                padding: 26px;
+              }
