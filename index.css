@@ -12,6 +12,8 @@ body{
     padding-top: 50px;
 
 }
+.span{color: white;
+float: left;}
  #first{ display: flex;
 }
 #hour{
